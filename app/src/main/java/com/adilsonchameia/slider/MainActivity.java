@@ -28,37 +28,16 @@ public class MainActivity extends IntroActivity {
                 .build()
         );
 
+        addSlide(new FragmentSlide.Builder()
+                .background(android.R.color.white)
+                .fragment(R.layout.fragment_intro2)
+                .build()
+        );
+
         /*
         //autoplay(4500,INFINITE);
         setButtonBackVisible(false);
         setButtonNextVisible(false);
-
-        addSlide(new SimpleSlide.Builder()
-                .title("Titulo")
-                .description("Descricao")
-                .image(R.drawable.um)
-                .background(R.color.colorPrimaryDark)
-                .build());
-
-        addSlide(new SimpleSlide.Builder()
-                .title("Titulo2")
-                .description("Descricao2")
-                .image(R.drawable.dois)
-                .background(R.color.colorPrimaryDark)
-                .build());
-        addSlide(new SimpleSlide.Builder()
-                .title("Titulo3")
-                .description("Descricao3")
-                .image(R.drawable.tres)
-                .background(R.color.colorPrimaryDark)
-                .build());
-        addSlide(new SimpleSlide.Builder()
-                .title("Titulo4")
-                .description("Descricao4")
-                .image(R.drawable.quatro)
-                .background(R.color.colorPrimaryDark)
-                .build());
-
          */
     }
 
