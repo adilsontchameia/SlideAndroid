@@ -34,6 +34,12 @@ public class MainActivity extends IntroActivity {
                 .build()
         );
 
+        addSlide(new FragmentSlide.Builder()
+                .background(android.R.color.white)
+                .fragment(R.layout.fragment_intro2)
+                .build()
+        );
+
         /*
         //autoplay(4500,INFINITE);
         setButtonBackVisible(false);
